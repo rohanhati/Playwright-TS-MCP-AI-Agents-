@@ -1,0 +1,9 @@
+{
+  "username": "Admin",
+  "password": "admin123",
+  "loginHeading": "Login",
+  "dashboardHeading": "Dashboard",
+  "adminNavigation": "Admin",
+  "leaveNavigation": "Leave",
+  "logoutMenuItem": "Logout"
+}

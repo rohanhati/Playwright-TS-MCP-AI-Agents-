@@ -1,0 +1,11 @@
+order_id,customer_id,amount,status
+1,C001,100,Completed
+2,C002,250,Completed
+3,C003,200,Completed
+4,C004,300,Pending
+5,C005,150,Completed
+6,C006,200,Pending
+7,C007,400,Completed
+8,C008,350,Completed
+9,C009,500,Pending
+10,C010,450,Completed

@@ -1,0 +1,17 @@
+{
+  "username": "Admin",
+  "password": "admin123",
+  "dashboardHeading": "Dashboard",
+  "employeeClaimsHeading": "Employee Claims",
+  "labels": [
+    "Employee Claims",
+    "Employee Name",
+    "Reference Id",
+    "Event Name",
+    "Status",
+    "From Date",
+    "To Date"
+  ],
+  "logoutMenuItem": "Logout",
+  "loginHeading": "Login"
+}

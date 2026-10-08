@@ -1,0 +1,1 @@
+Analyze KPI trends from gold layer and detect anomalies in revenue or order count.
