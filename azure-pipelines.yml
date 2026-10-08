@@ -1,0 +1,26 @@
+trigger:
+- main   # runs pipeline when you push to main branch
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '18.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm ci
+    npx playwright install
+  displayName: 'Install dependencies and Playwright'
+
+- script: |
+    npx playwright test --reporter=html
+  displayName: 'Run Playwright tests with HTML report'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: 'playwright-report'
+    artifactName: 'playwright-report'
+  displayName: 'Publish Playwright HTML report'
